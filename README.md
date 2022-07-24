@@ -1,29 +1,43 @@
-# front-end
+## Prueba tecnica fullstack 
 
-This template should help get you started developing with Vue 3 in Vite.
+**Este proyecto fue desarrollado en dos partes el Back End utilizando el Frameword de PHP [Laravel](https://laravel.com/ "Laravel") y el Front End con la librería de Javascript [Vue.Js](https://vuejs.org/ "Vue.Js") teniendo como base de datos [Sqlite3](https://www.sqlite.org/index.html "Sqlite3")**
 
-## Recommended IDE Setup
+------------
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Aqui puedes ver el [Back End](https://github.com/jhonv4sq/back-end "Back End")
 
-## Customize configuration
+------------
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-## Project Setup
 
-```sh
-npm install
+## Primeros pasos para descargar y poner en funcionamiento el proyecto 
+
+#### 1. Descarga
+##### Para descargar los archivos del proyecto desde este repositorio deberás introducir por consola este comando.
+```bash
+git clone https://github.com/jhonv4sq/front-end.git
 ```
 
-### Compile and Hot-Reload for Development
+------------
+#### 2. Instalación  
 
-```sh
+##### Esta parte del proyecto solo utilizamos Vue.js por lo que debemos introducir los comandos `npm` (Node Package Manager).
+```bash
+npm install
+```
+```bash
+npm update
+```
+
+------------
+
+
+#### 3. Ponemos en marcha el proyecto 
+
+##### Después de haber hecho todos los pasos anteriores ya solo queda escribir en la consola de comando.
+
+```bash
 npm run dev
 ```
 
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+##### Ya con esto nuestro proyecto se estara ejecutando en el puerto 5173,   http://localhost:5173/
